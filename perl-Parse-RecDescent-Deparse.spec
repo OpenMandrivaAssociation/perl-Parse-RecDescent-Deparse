@@ -11,6 +11,7 @@ Source0:	%{real_name}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	perl-Parse-RecDescent
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This module adds the deparse method to the Parse::RecDescent
